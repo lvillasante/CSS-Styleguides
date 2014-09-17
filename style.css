@@ -1,0 +1,443 @@
+@charset "utf-8";
+/*------------------------------------*\
+    enbolivia.com s.r.l.
+\*------------------------------------*/
+
+/*------------------------------------*\
+	Proyect		: Empoderar - estandar ADSIB / Theme for Bootstrap 3
+	Description	: Design based on CSS 3
+	Designer   	: Luis Villasante
+	E - mail   	: luis[at]enbolivia.com | luis.villasante[at]gmail.com
+	Filename   	: style.css
+	Version    	: 1.0
+	Date       	: May 26, 2014 - 0200
+\*------------------------------------*/
+
+body {
+	background: #666666 url("../images/background.png") repeat scroll top left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.container {
+	background-color: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #666666;
+	text-transform: uppercase;
+}
+h1{font-size: 21px;}
+h2{font-size: 16px;}
+h3{font-size: 14px; text-transform: none;}
+
+/*------------------------------------*\
+    $Logo
+\*------------------------------------*/
+.container .logo{
+	height: 160px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/*------------------------------------*\
+    $Banner
+\*------------------------------------*/
+.container .banner{
+	min-height: 100px;
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e6e6e6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e6e6e6));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e6e6e6 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#e6e6e6 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#e6e6e6 100%);
+	background: linear-gradient(to bottom,  #ffffff 0%,#e6e6e6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e6e6',GradientType=0 );
+}
+.container .idioma{
+	height: 20px;
+}
+.container .idioma ul{
+	list-style: none;
+	margin: 0;
+}
+.container .idioma ul li{
+	display: inline-block;
+	float: left;
+	padding: 0 10px;
+	border-right: 1px solid 
+}
+.container .idioma ul li a{ color: #494949}
+.container .idioma ul li a:hover{
+	color: #e61414;
+}
+.container .idioma ul li.selected a{
+	color: #e61414;
+	text-decoration: underline;
+}
+.container .banner h1{
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1em;
+	margin: 0px;
+	text-transform: uppercase;
+}
+.container .banner h2{
+	font-size: 1.47em;
+	font-weight: bold;
+	line-height: 1em;
+	margin: 4px 0 0 0;
+}
+.container .banner h3{
+	font-size: 1em;
+	line-height: 1em;
+	margin: 10px 0 0 0;
+}
+.container .banner h3 strong{font-size: 1.25em}
+.container .banner .sitemap{
+	margin: 10px 0 15px;
+}
+.container .banner .sitemap a{
+	color: #c8c8c8;
+}
+.container .banner .busqueda {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.container .banner .busqueda form{
+	margin: 0;
+}
+.container .banner .logos{padding-right: 0px;}
+.container .banner .logos img{
+	/*max-width: 120px;*/
+	/*max-width: 32%;*/
+	height: auto;
+	padding-left: 0px;
+}
+.container .banner .logos .img_last{
+	padding-right: 0px;
+}
+
+/*------------------------------------*\
+    $Menú Principal
+\*------------------------------------*/
+#main_menu{
+	display:block;
+	/*height: 40px;*/
+	min-height: 40px;
+	margin-bottom: 0px;
+	min-height: 40px;
+}
+.container #main_menu .container-fluid,
+.container #main_menu .container-fluid .navbar-collapse{ 
+	padding-left: 0px; 
+	padding-right: 0px;
+}
+.container .navbar.navbar-default{
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #c8c8c8 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c8c8c8), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top,  #c8c8c8 0%,#ffffff 100%);
+	background: -o-linear-gradient(top,  #c8c8c8 0%,#ffffff 100%);
+	background: -ms-linear-gradient(top,  #c8c8c8 0%,#ffffff 100%);
+	background: linear-gradient(to bottom,  #c8c8c8 0%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c8c8c8', endColorstr='#ffffff',GradientType=0 );
+	border: none;
+	box-shadow: none;
+	border-radius: 0px;
+	padding: 0px;
+}
+
+.navbar .nav > li > a{
+	border-right: 1px solid #CCCCCC;
+	color: #666666;
+	font-size: 14px;
+	text-shadow:none;
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.navbar .nav > li > a:hover{
+	background-color: #ccc;
+}
+
+.navbar .nav > .active > a, 
+.navbar .nav > .active > a:hover, 
+.navbar .nav > .active > a:focus{
+	background-color: #ccc;
+	box-shadow: none;
+}
+
+#main_menu nav ul.nav li.home a,
+#main_menu nav ul.nav li:first-child a{
+	padding-top: 6px;
+	padding-bottom: 5px;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: #969EA5;
+}
+
+	/* Menu desplegable*/
+	.dropdown-menu > li > a{
+		color: #494949;
+	}
+	.navbar .nav > li > .dropdown-menu{
+		border-radius: 0px;
+	}
+	.dropdown-menu > li > a:hover,
+	.dropdown-menu > li > a:focus,
+	.dropdown-submenu:hover > a,
+	.dropdown-submenu:focus > a {
+		color: #000;
+		text-decoration: none;
+		background-color: #ccc;
+		background-image: none;
+		filter: none;
+	}
+
+
+/*------------------------------------*\
+    $Página principal
+\*------------------------------------*/
+.container #main{
+	padding-right: 0px;
+	margin-right: 0px;
+}
+/*@media (max-width: 767px) {
+	.container #main{
+		padding-left: 10px;
+		padding-right: 10px;
+	}	
+}*/
+.container #main .contenido{
+	margin-top: 20px;
+}
+.container #main .contenido p{ text-align: justify;} 
+
+	.contenido .banner_central{
+	}
+	.contenido .slider_empoderar{
+		margin-bottom: 15px;
+	}
+	.contenido .titulares h2{
+		margin-top: 0px;
+		font-size: 14px;
+		font-weight: bold;
+		border-bottom: 1px solid #494949;
+	}
+
+	/*--- $breadcrumbs ---*/
+	.contenido .breadcrumbs{ 
+		margin-bottom: 10px;
+	}
+	.contenido .breadcrumbs ul.breadcrumb{
+		border-radius: 0px;
+		padding: 5px 15px;
+		margin: 0px;
+	}
+	.breadcrumb>li+li:before {
+		content: "/\00a0";
+		padding: 0 5px;
+		color: #ccc;
+	}
+
+	/*--- $Lateral ---*/
+	.container #main .lateral{ padding-right: 0px;}
+	.container #main .lateral .link_interes{
+	}
+	.container #main .lateral .link_interes ul{
+		background-color: #f2f2f2;
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+	}
+	.container #main .lateral .link_interes ul li{
+		border-bottom: 1px solid #ccc;
+	}
+	.container #main .lateral .link_interes ul li.title{
+		color: #666666;
+	    font-size: 14px;
+	    font-weight: bold;
+	    line-height: 18px;
+	    text-align: center;
+	    /*text-transform: uppercase;*/
+	}
+	.container #main .lateral .link_interes ul li a{
+	/*background: transparent url("../images/background_botonera.png") no-repeat scroll right center;*/
+	background-image: url("../images/background_botonera.png");
+	background-repeat: no-repeat;
+	background-position : calc(100% - 10px) center; 
+    color: #666666;
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 10px 36px 10px 0;
+    text-align: right;
+    text-decoration: none;
+	}
+	.container #main .lateral .link_interes ul li a:hover{
+		background-color: #ccc;
+		color: #333;
+	}
+	.container #main .lateral .link_gobierno{}
+	.container #main .lateral .link_gobierno ul{
+		background-color: #fff;
+		list-style: none;
+		margin: 0;
+		padding: 0px;
+	}
+	.container #main .lateral .link_gobierno ul li{
+		/*background: transparent url("../images/Fondo_Botonera_Lateral_de_Gobierno.png") no-repeat scroll 10px center;*/
+		background-image: url("../images/Fondo_Botonera_Lateral_de_Gobierno.png");
+		background-repeat: no-repeat;
+		background-position: right center; 
+		border-bottom: 1px solid #ccc;
+	}
+	.container #main .lateral .link_gobierno ul li a{
+		background: transparent url("../images/background_botonera.png") no-repeat scroll 1px center ;
+		color: #666;
+		font-size: 12px;
+		line-height: 14px;
+		font-weight: bold;
+		display: block;
+		padding: 14px 0 14px 30px;
+		text-transform: uppercase;
+	}
+	.container #main .lateral .publicaviones{}
+	.container #main .lateral .marca_pais{
+		margin: 10px;
+		text-align: center;
+	}
+	.container #main .lateral .marca_pais img{ display: inline;}
+	.container #main .lateral .logo_generico{
+		margin: 10px;
+	}
+	.container #main .lateral .link_redes_sociales{ margin-bottom: 20px;}
+	/*.container #main .lateral .link_redes_sociales h3{*/
+	.container #main .lateral h3{
+		color: #666666;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 18px;
+		text-align: center;
+		text-transform: uppercase;
+		margin-top: 15px;
+	}
+
+
+/*------------------------------------*\
+    $Páginas Interiores
+\*------------------------------------*/
+div#two_containers div#center_inside{
+	float:left;
+	min-height:840px;/*850*/
+	height:auto !important;
+	width:538px;/*560*/
+}
+
+/*------------------------------------*\
+    $Pie de Página
+\*------------------------------------*/
+footer{
+}
+footer #pie_pagina{
+	background-color: #aaa;
+	color: #666;
+	/*height: 125px;*/
+	min-height: 125px;
+	font-size: 11px;
+	line-height: 13px;
+	padding-top:25px;
+	padding-bottom: 5px; 
+}
+footer #pie_pagina a{
+	color: #005580;	
+}
+footer #pie_pagina a:hover{
+	color: #0088cc;
+}
+footer #pie_pagina #direccion{}
+footer #pie_pagina #politicas{
+	margin-top: 45px;
+}
+footer #pie_pagina #validacion{
+	margin-left: 0px;
+	margin-top: 45px;
+}
+footer #pie_pagina .financiadores h4{
+	display: inline-block;
+	font-size: 15px;
+}
+footer #pie_pagina .financiadores img{
+	display: inline-block;
+	margin-left: 5px;
+}
+
+/*------------------------------------*\
+    $RESPONSIVE
+\*------------------------------------*/
+
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+
+@media (max-width: 767px) {
+	.banner .titulo,
+	.banner .logos{
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.navbar .nav li a{
+		background-color: red;
+		font-size: 12px;
+		padding-right: 12px;
+		padding-left: 12px;
+	}
+	.container #main_menu .container-fluid, 
+	.container #main_menu .container-fluid .navbar-collapse{
+		padding-left: 15px;
+    	padding-right: 15px;
+	}
+	footer #pie_pagina {
+		text-align: center;
+	}
+	footer #pie_pagina #politicas,
+	footer #pie_pagina #validacion{
+		margin-top: 15px;
+	}
+	footer #pie_pagina .financiadores{
+		/*text-align: center;*/
+		margin-top: 8px;
+	}
+	footer #pie_pagina .financiadores img{
+		margin-bottom: 5px;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.banner .titulo,
+	.banner .logos{
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.navbar .nav li a{
+		background-color: yellow;
+		font-size: 11px;
+    	padding: 8px 15px 8px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar .nav li a{
+		background-color: green;
+		font-size: 12px;
+    	padding: 9px 13px 8px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.navbar .nav li a{
+		/*background-color: blue;*/
+	}
+}
+
+

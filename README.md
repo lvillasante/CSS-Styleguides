@@ -8,7 +8,7 @@ Para la cabecera de todo proyecto
 
 ```
 /*------------------------------------*\
-    Nombre de la institucion
+    Nombre de la institución
 \*------------------------------------*/
 
 /*------------------------------------*\
@@ -62,15 +62,10 @@ Los puntos de anclajes a travez de Media queries
         background-color: green;
     }*/
 }
-
 @media (min-width: 1200px) {
     /*.navbar .nav li a{
         background-color: blue;
     }*/
-    .navbar-fixed-top .logo img{
-        margin-top: 0px;
-        max-width: 255px;
-    }
 }
 
 ```
